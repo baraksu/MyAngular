@@ -10,3 +10,14 @@ C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\EntityFramework.SqlServer.xml
 C:\GitHub\MyAngular\MyAngular\DAL\obj\Debug\DAL.dll
 C:\GitHub\MyAngular\MyAngular\DAL\obj\Debug\DAL.pdb
 C:\GitHub\MyAngular\MyAngular\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\System.Web.Helpers.dll
+C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\System.Web.Razor.dll
+C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\System.Web.WebPages.dll
+C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\System.Web.WebPages.Razor.dll
+C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\System.Web.Helpers.xml
+C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\System.Web.Razor.xml
+C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\System.Web.WebPages.xml
+C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\System.Web.WebPages.Razor.xml

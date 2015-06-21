@@ -7,6 +7,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTests", "MyTests\MyTests.csproj", "{4C165D90-2375-4101-9DC2-345B1D52FA01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yad2", "Yad2\Yad2.csproj", "{9B0A2F45-E09E-4EEC-8621-4064C9443C71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{E9B45478-EBEA-4DC4-A9D3-C98115AECF60}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{4FFB73A5-5875-4E81-8F99-F1410D7DA2F6}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\Yad2-WAWS-dev.json = PublishScripts\Configurations\Yad2-WAWS-dev.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +34,15 @@ Global
 		{4C165D90-2375-4101-9DC2-345B1D52FA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C165D90-2375-4101-9DC2-345B1D52FA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C165D90-2375-4101-9DC2-345B1D52FA01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B0A2F45-E09E-4EEC-8621-4064C9443C71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B0A2F45-E09E-4EEC-8621-4064C9443C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B0A2F45-E09E-4EEC-8621-4064C9443C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B0A2F45-E09E-4EEC-8621-4064C9443C71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4FFB73A5-5875-4E81-8F99-F1410D7DA2F6} = {E9B45478-EBEA-4DC4-A9D3-C98115AECF60}
 	EndGlobalSection
 EndGlobal
