@@ -8,16 +8,18 @@ namespace DAL
 {
     public class DataRepository : IDataRepository
     {
-        public IQueryable<RentApartment> GetAppartments()
+        public IEnumerable<RentApartment> GetAppartments()
         {
             using (var ctx = new Yad2Context())
             {
-                return ctx.RentApartments;
+                return ctx.RentApartments.ToList();
 
             }
 
                
 
         }
+
+        
     }
 }

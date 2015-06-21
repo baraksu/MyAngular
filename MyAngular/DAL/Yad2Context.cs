@@ -11,7 +11,7 @@ namespace DAL
     {
         public DbSet<RentApartment> RentApartments { get; set; }
 
-        public Yad2Context():base()
+        public Yad2Context():base("DAL.Yad2Context")
         {
 
         }

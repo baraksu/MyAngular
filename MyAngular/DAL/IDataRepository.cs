@@ -8,7 +8,7 @@ namespace DAL
 {
     public interface IDataRepository
     {
-        IQueryable<RentApartment> GetAppartments();
+        IEnumerable<RentApartment> GetAppartments();
 
     }
 }

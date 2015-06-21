@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using DAL;
+using System.Linq;
 
 namespace MyTests
 {
@@ -14,8 +15,15 @@ namespace MyTests
 
             var appatments= dataRepository.GetAppartments();
 
+
             Assert.IsNotNull(appatments, "No Data from the repository");
+
+
             
+            Assert.IsTrue(appatments.Count()>0, "No Data from the repository");
+
+            Console.WriteLine("appatments.Count():{0}",appatments.Count());
+
         }
     }
 }
