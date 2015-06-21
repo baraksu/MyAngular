@@ -1,0 +1,12 @@
+C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\DB.mdf
+C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\DB_log.ldf
+C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\DAL.dll.config
+C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\DAL.dll
+C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\DAL.pdb
+C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\EntityFramework.dll
+C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\EntityFramework.xml
+C:\GitHub\MyAngular\MyAngular\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\GitHub\MyAngular\MyAngular\DAL\obj\Debug\DAL.dll
+C:\GitHub\MyAngular\MyAngular\DAL\obj\Debug\DAL.pdb
+C:\GitHub\MyAngular\MyAngular\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
